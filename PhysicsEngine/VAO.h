@@ -11,7 +11,7 @@ public:
 
 	VAO();
 
-	void linkVBO(VBO&, GLuint);
+	void linkAttrib(VBO&, GLuint, GLuint, GLenum, GLsizeiptr, void*);
 	void bind();
 	void unbind();
 	
